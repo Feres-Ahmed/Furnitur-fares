@@ -53,7 +53,7 @@ h5 , p{
 
 .btn-contact:focus{
     background-color: transparent;
-    color: var(--third-color);
+    color: black;
 }
 
 #home{
@@ -1539,6 +1539,7 @@ header i{
 /* start market */
 
 }
+
 
 
 
