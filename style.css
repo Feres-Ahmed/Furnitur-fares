@@ -796,6 +796,7 @@ header i:hover{
 #market-sofa img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-sofa h4{
@@ -859,6 +860,7 @@ header i:hover{
 #market-wardrobe img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-wardrobe h4{
@@ -922,6 +924,7 @@ header i:hover{
 #market-bed  img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-bed h4{
@@ -984,6 +987,7 @@ header i:hover{
 #market-chair  img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-chair h4{
@@ -1049,6 +1053,7 @@ header i:hover{
 #market-table  img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-table h4{
@@ -1114,6 +1119,7 @@ header i:hover{
 #market-kitchen  img{
     max-width: 350px;
     height: 250px;
+    border-radius: 10px;
 }
 
 #market-kitchen h4{
@@ -1578,8 +1584,6 @@ header i{
 
 
 }
-
-
 
 
 
