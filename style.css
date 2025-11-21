@@ -39,7 +39,6 @@ h5 , p{
 }
 /* start header */
 
-
 .btn-contact{
     position: fixed;
     bottom: 10px;
@@ -1136,6 +1135,34 @@ header i:hover{
 }
 /* end kitchen */
 
+/*start design*/
+
+#design{
+    background-color: var(--background-color);
+    height: 100vh;
+}
+
+#design h1{
+    padding: 20px 0;
+    text-align: center;
+    color: goldenrod;
+}
+
+#design .contact-design{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+#design img{
+    display: block;
+    max-width: 310px;
+    margin: 10px;
+    border-radius: 10px;
+}
+/* end design */
 
 /* mobile screen */
 
@@ -1534,13 +1561,23 @@ header i{
     padding: 0 0;
     font-size: 40px;
 }
-
-
 /* start market */
 
+
+/* start design */
+
+#design .contact-design{
+    grid-template-columns: repeat(1,1fr);
+    gap:0;
+}
+
+#design img{
+    margin: 15px;
 }
 
 
+
+}
 
 
 
