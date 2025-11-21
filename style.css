@@ -1139,7 +1139,7 @@ header i:hover{
 
 #design{
     background-color: var(--background-color);
-    height: 100vh;
+    height: auto;
 }
 
 #design h1{
@@ -1578,6 +1578,7 @@ header i{
 
 
 }
+
 
 
 
