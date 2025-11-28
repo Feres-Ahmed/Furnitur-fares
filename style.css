@@ -751,7 +751,7 @@ header i:hover{
 /* end nav-market */
 
 /* start market*/
-#sofa, #wardrobe , #bed, #chair, #table ,#kitchen  {
+#sofa, #wardrobe , #bed, #chair, #table ,#kitchen{
     background-color: var(--background-color);
     padding-bottom: 190px;
 }
@@ -1198,7 +1198,7 @@ header i{
 
 /* start market-nav */
 
-#market{
+#market-nav{
     height: 6vh;
 }
 
@@ -1224,23 +1224,15 @@ header i{
 }
 /* end market-nav */
 
-
-#market-sofa .market-title-sofa{
+/* start market */
+#market .title{
     padding: 0 0;
     padding-top: 50px;
     font-size: 40px;
 }
 
-#market-wardrobe .market-title-wardrobe
-,#market-bed .market-title-bed
-,#market-chair .market-title-chair
-,#market-table .market-title-table
-,#market-bed .market-title-bed
-,#market-kitchen .market-title-kitchen{
-    padding: 0 0;
-    font-size: 40px;
-}
-/* start market */
+
+/* end market */
 
 
 /* start design */
