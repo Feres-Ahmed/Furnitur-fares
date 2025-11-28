@@ -711,7 +711,7 @@ header i:hover{
 
 /* start nav-market */
 
-#market{
+#market-nav{
     background: var(--third-color);
     height: 7vh;
 }
@@ -733,12 +733,7 @@ header i:hover{
 }
 
 .navbar-market h2:hover , .navbar-market ul a:hover 
-,#market-sofa .market-title-sofa:hover
-,#market-wardrobe .market-title-wardrobe:hover
-,#market-bed  .market-title-bed:hover
-,#market-chair .market-title-chair:hover 
-,#market-table .market-title-table:hover
-,#market-kitchen .market-title-kitchen:hover {
+,#market .title {
     color: var(--five-color);
 }
 
@@ -755,20 +750,20 @@ header i:hover{
 }
 /* end nav-market */
 
-/* start sofa */
-#market-sofa{
+/* start market*/
+#sofa, #wardrobe , #bed, #chair, #table ,#kitchen  {
     background-color: var(--background-color);
     padding-bottom: 190px;
 }
 
-#market-sofa .market-title-sofa{
+#market .title{
     text-align: center;
     font-size: 60px;
     color: var(--fourt-color);
     padding: 90px 0;
 }
 
-#market-sofa .content-market-sofa{
+#market .content{
     display: flex;
     overflow-x: auto;
     gap: 40px;
@@ -778,33 +773,33 @@ header i:hover{
     height: 400px;
 }
 
-#market-sofa .item{
+#market .item{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#market-sofa .content-market-sofa::-webkit-scrollbar{
+#market .content::-webkit-scrollbar{
     height: 8px;
 }
 
-#market-sofa .content-market-sofa::-webkit-scrollbar-thumb{
+#market .content::-webkit-scrollbar-thumb{
     background-color: var(--third-color);
     border-radius: 5px;
 }
 
-#market-sofa img{
+#market img{
     max-width: 350px;
     height: 250px;
     border-radius: 10px;
 }
 
-#market-sofa h4{
+#market h4{
     margin: 10px auto;
     color: var(--third-color);
 }
 
-#market-sofa .btn-market-sofa{
+#market .btn-market{
     color: var(--main-color);
     background-color: var(--third-color);
     animation: btn-three-services 2s linear infinite;
@@ -812,334 +807,12 @@ header i:hover{
     border: 1px var(--main-color) solid;
 }
 
-#market-sofa .btn-market-sofa:hover{
+#market .btn-market:hover{
     color: var(--third-color);
     background-color: transparent;
 }
-/* end sofa */
+/* end market */
 
-
-/* start wardrobe */
-#market-wardrobe{
-    background-color: var(--background-color);
-    padding-bottom: 190px;
-}
-
-#market-wardrobe .market-title-wardrobe{
-    text-align: center;
-    font-size: 60px;
-    color: var(--fourt-color);
-    padding: 90px 0;
-}
-
-#market-wardrobe .content-market-wardrobe{
-    display: flex;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    max-height: 500px;
-    align-items: center;
-    height: 400px;
-}
-
-#market-wardrobe .item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#market-wardrobe .content-market-wardrobe::-webkit-scrollbar{
-    height: 8px;
-}
-
-#market-wardrobe .content-market-wardrobe::-webkit-scrollbar-thumb{
-    background-color: var(--third-color);
-    border-radius: 5px;
-}
-
-#market-wardrobe img{
-    max-width: 350px;
-    height: 250px;
-    border-radius: 10px;
-}
-
-#market-wardrobe h4{
-    margin: 10px auto;
-    color: var(--third-color);
-}
-
-#market-wardrobe .btn-market-wardrobe{
-    color: var(--main-color);
-    background-color: var(--third-color);
-    animation: btn-three-services 2s linear infinite;
-    max-width: 120px;
-    border: 1px var(--main-color) solid;
-}
-
-#market-wardrobe .btn-market-wardrobe:hover{
-    color: var(--third-color);
-    background-color: transparent;
-}
-/* end wardrobe */
-
-
-/* start bed */
-#market-bed {
-    background-color: var(--background-color);
-    padding-bottom: 190px;
-}
-
-#market-bed  .market-title-bed {
-    text-align: center;
-    font-size: 60px;
-    color: var(--fourt-color);
-    padding: 90px 0;
-}
-
-#market-bed .content-market-bed {
-    display: flex;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    max-height: 500px;
-    align-items: center;
-    height: 400px;
-}
-
-#market-bed  .item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#market-bed  .content-market-bed::-webkit-scrollbar{
-    height: 8px;
-}
-
-#market-bed  .content-market-bed::-webkit-scrollbar-thumb{
-    background-color: var(--third-color);
-    border-radius: 5px;
-}
-
-#market-bed  img{
-    max-width: 350px;
-    height: 250px;
-    border-radius: 10px;
-}
-
-#market-bed h4{
-    margin: 10px auto;
-    color: var(--third-color);
-}
-
-#market-bed  .btn-market-bed {
-    color: var(--main-color);
-    background-color: var(--third-color);
-    animation: btn-three-services 2s linear infinite;
-    max-width: 120px;
-    border: 1px var(--main-color) solid;
-}
-
-#market-bed  .btn-market-bed :hover{
-    color: var(--third-color);
-    background-color: transparent;
-}
-/* end bed */
-
-/* start chair */
-#market-chair {
-    background-color: var(--background-color);
-    padding-bottom: 190px;
-}
-
-#market-chair  .market-title-chair {
-    text-align: center;
-    font-size: 60px;
-    color: var(--fourt-color);
-    padding: 90px 0;
-}
-
-#market-chair .content-market-chair {
-    display: flex;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    max-height: 500px;
-    align-items: center;
-    height: 400px;
-}
-
-#market-chair .item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#market-chair  .content-market-chair::-webkit-scrollbar{
-    height: 8px;
-}
-
-#market-chair  .content-market-chair::-webkit-scrollbar-thumb{
-    background-color: var(--third-color);
-    border-radius: 5px;
-}
-
-#market-chair  img{
-    max-width: 350px;
-    height: 250px;
-    border-radius: 10px;
-}
-
-#market-chair h4{
-    margin: 10px auto;
-    color: var(--third-color);
-}
-
-#market-chair  .btn-market-chair {
-    color: var(--main-color);
-    background-color: var(--third-color);
-    animation: btn-three-services 2s linear infinite;
-    max-width: 120px;
-    border: 1px var(--main-color) solid;
-}
-
-#market-chair  .btn-market-chair:hover{
-    color: var(--third-color);
-    background-color: transparent;
-}
-
-/*  end chair */
-
-
-
-/* start table */
-#market-table {
-    background-color: var(--background-color);
-    padding-bottom: 190px;
-}
-
-#market-table  .market-title-table{
-    text-align: center;
-    font-size: 60px;
-    color: var(--fourt-color);
-    padding: 90px 0;
-}
-
-#market-table .content-market-table {
-    display: flex;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    max-height: 500px;
-    align-items: center;
-    height: 400px;
-}
-
-#market-table .item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#market-table  .content-market-table::-webkit-scrollbar{
-    height: 8px;
-}
-
-#market-table  .content-market-table::-webkit-scrollbar-thumb{
-    background-color: var(--third-color);
-    border-radius: 5px;
-}
-
-#market-table  img{
-    max-width: 350px;
-    height: 250px;
-    border-radius: 10px;
-}
-
-#market-table h4{
-    margin: 10px auto;
-    color: var(--third-color);
-}
-
-#market-table  .btn-market-table {
-    color: var(--main-color);
-    background-color: var(--third-color);
-    animation: btn-three-services 2s linear infinite;
-    max-width: 120px;
-    border: 1px var(--main-color) solid;
-}
-
-#market-table  .btn-market-table:hover{
-    color: var(--third-color);
-    background-color: transparent;
-}
-
-/* end table */
-
-
-
-/* start kitchen */
-#market-kitchen {
-    background-color: var(--background-color);
-    padding-bottom: 190px;
-}
-
-#market-kitchen .market-title-kitchen{
-    text-align: center;
-    font-size: 60px;
-    color: var(--fourt-color);
-    padding: 90px 0;
-}
-
-#market-kitchen .content-market-kitchen{
-    display: flex;
-    overflow-x: auto;
-    gap: 40px;
-    scroll-behavior: smooth;
-    max-height: 500px;
-    align-items: center;
-    height: 400px;
-}
-
-#market-kitchen .item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#market-kitchen .content-market-kitchen::-webkit-scrollbar{
-    height: 8px;
-}
-
-#market-kitchen .content-market-kitchen::-webkit-scrollbar-thumb{
-    background-color: var(--third-color);
-    border-radius: 5px;
-}
-
-#market-kitchen  img{
-    max-width: 350px;
-    height: 250px;
-    border-radius: 10px;
-}
-
-#market-kitchen h4{
-    margin: 10px auto;
-    color: var(--third-color);
-}
-
-#market-kitchen .btn-market-kitchen{
-    color: var(--main-color);
-    background-color: var(--third-color);
-    animation: btn-three-services 2s linear infinite;
-    max-width: 120px;
-    border: 1px var(--main-color) solid;
-}
-
-#market-kitchen  .btn-market-kitchen:hover{
-    color: var(--third-color);
-    background-color: transparent;
-}
-/* end kitchen */
 
 /*start design*/
 
