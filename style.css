@@ -70,7 +70,7 @@ h5 , p{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    position: fixed;
+    background-color: var(--third-color);
     top: 0;
     left: 0;
     box-shadow: gray 0 0 4px -2px;
@@ -1249,6 +1249,7 @@ header i{
 
 
 }
+
 
 
 
