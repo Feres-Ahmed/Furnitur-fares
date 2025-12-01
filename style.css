@@ -853,7 +853,6 @@ body,html{
 }
 
 .navbar{
-    position: static;
     background-color: var(--third-color);
     padding-left: 5px;
 }
@@ -1249,6 +1248,7 @@ header i{
 
 
 }
+
 
 
 
