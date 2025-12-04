@@ -593,18 +593,6 @@ header i:hover{
     background-color: #4a6b5c91;
 }
 
-.rules-box {
-    display: none;
-    background: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-top: 5px;
-    border-radius: 5px;
-    font-size: 14px;
-    width: 250px;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-}
-
 .rules-box ul {
     margin: 0;
     padding-left: 20px;
@@ -624,13 +612,18 @@ header i:hover{
     padding: 10px;
     border-radius: 5px;
     font-size: 14px;
-    width: 250px;
+    width: 300px;
     box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    color: var(--third-color);
 }
 
 .rules-box ul {
     margin: 0;
     padding-left: 20px;
+}
+
+.rules-box ul li {
+    padding: 5px;
 }
 
 #blog .end-blog img{
@@ -1149,6 +1142,11 @@ header i{
     display: block;
     font-size: 14px;
     margin: 5px;
+}
+
+.rules-box {
+    width: 250px;
+    height: auto;
 }
 
 #blog .end-blog img{
