@@ -816,7 +816,7 @@ header i:hover{
 }
 
 .container-market{
-    padding:auto 15px;
+    padding:0 10px 5px 10px;
 }
 
 .navbar-market{
@@ -1242,6 +1242,10 @@ header i{
     margin: 5px;
 }
 
+input[type=password]{
+    font-size: 11.9px !important;
+}
+
 #blog .end-blog img{
     max-width:160px;
 }
@@ -1303,7 +1307,6 @@ header i{
 /* start market */
 
 /* start market-nav */
-
 #market-nav{
     height: 6vh;
 }
@@ -1322,7 +1325,7 @@ header i{
 } 
 
 .container-market{
-    padding:0 5px;
+    display: none;
 }
 
 .navbar-market ul a{
