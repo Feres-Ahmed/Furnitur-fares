@@ -244,12 +244,12 @@
                         <div class="icon1"><i class="fa-solid fa-envelope"></i></div>
                         <p>Subscribe to Newsletter</p>
                         <div>
-                            <form>
-                                <input type="text" id="name" placeholder="Enter Your Name">
-                                <input type="email" id="email" placeholder="Enter Your Email">
+                            <form action="subscribe.php" method="post">
+                                <input type="text" name="name" id="name" placeholder="Enter Your Name">
+                                <input type="email" name="email" id="email" placeholder="Enter Your Email">
 
                         <div class="password-container">
-                            <input type="password" id="password" placeholder="Enter Your Password">
+                            <input type="password" name="password" id="password" placeholder="Enter Your Password">
                                
                             <div id="password-rules" class="rules-box">
                                 <ul>            
@@ -328,7 +328,7 @@
 
    
     <script src="all.js"></script>
-
+    <script src="subscribe.php"></script>
 </body>
 </html>
 
